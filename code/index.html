@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <navbar>
+        <div class="left">
+            <img src="dt_logo.png" height="75px" width="150px" alt="dt logo">
+            <p><span id="deep">DEEP</span> <span id="thought">THOUGHT</span></p>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-tools"></i></a></li>
+                <li><a href="#"><i class="fa fa-bell"></i></a></li>
+                <li><a href="#"><ion-icon name="person-outline"></ion-icon></i></a></li>
+                <li><a id="more" href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></i></a></li>
+            </ul>
+        </div>
+    </navbar>
+
+    <section class="page">
+        <!-- popup -->
+        <section class="popup">
+            <div class="head">
+
+            </div>
+            <div onmouseover="show()" onmouseout="close()" class="box">
+                <h1 id="one">1</h1>
+                <p id="para"></p>
+
+            </div>
+
+            <script>
+                function show() {
+                    // alert("hii");
+                    document.getElementById("para").innerHTML = `<ul>
+                            <li>Explore the world of management</li>
+                            <li>Technical Project Management</li>
+                            <li>Threadbuild</li>
+                            <li>Structure your pointers</li>
+                            <li>4SA Method</li>
+                        </ul > `;
+                    document.getElementsByClassName("popup").style.width = "14%";
+                    // document.getElementById("one").style.display = none;
+                    // document.getElementsByClassName("popup").style.width = 2000;
+                };
+                function close() {
+                    document.getElementById("para").style.display = none;
+                }
+                document.getElementsByClassName("box").onclick = function () {
+                    alert("hii");
+                }
+            </script>
+        </section>
+
+        <!-- main -->
+        <section class="main">
+            <h2>Technical Project Management</h2>
+            <div class="container">
+                <h3>Explore the world of management</h3>
+                <p>As a project manager, you play an important reole in leading a project through initiation, planning,
+                    execution, monitoring, controlling and completion. How? Do you want to manage each and every step of
+                    your life?s</p>
+            </div>
+
+            <!-- bar 1 -->
+            <div class="bar1">
+
+                <!-- card 1 -->
+                <div class="card card1">
+                    <div class="top">
+                        <p></p>
+                        <h4>Technical Project Management</h4>
+                        <ion-icon name="information-circle-outline"></ion-icon>
+                    </div>
+                    <div class="bottom">
+                        <p class="description"><b>Description:</b> Story of Alignment Scope of Agility Specific
+                            Accountable Staggering
+                            Approach</p>
+                        <iframe width="100%" height="250px" src="https://www.youtube.com/embed/VBprpbesg4I"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+                <!-- card 2 -->
+                <div class="card card2">
+                    <div class="top">
+                        <p></p>
+                        <h4>Threadbuild</h4>
+                        <ion-icon name="information-circle-outline"></ion-icon>
+
+                    </div>
+                    <div class="bottom">
+
+                        <p class="description"><b>Description:</b> Watch the video and threadbuild, and jot out key
+                            threads
+                            while watching the video</p>
+
+                        <div class="thread">
+                            <ion-icon name="chevron-up-outline"></ion-icon>
+                            <h1>Thread A</h1>
+                        </div>
+
+                        <div class="smallcards">
+                            <div class="smallcard">
+                                <div class="smalltop">Sub thread 1 </div>
+                                <div class="smallbottom">
+                                    <input type="text" placeholder="Enter text here">
+                                </div>
+                            </div>
+                            <div class="smallcard">
+                                <div class="smalltop">Sub thread 2</div>
+                                <div class="smallbottom">
+                                    <input type="text" placeholder="Enter text here">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="iconbtn">
+                            <div class="icons">
+                                <ion-icon name="bulb-outline"></ion-icon>
+                                <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                                <ion-icon name="help-outline"></ion-icon>
+                                <ion-icon name="rose-outline"></ion-icon>
+                            </div>
+                            <div class="buttons">
+                                <button class="btn">Select Categ<ion-icon
+                                        name="chevron-down-outline"></ion-icon></button>
+                                <button class="btn">Select Process<ion-icon
+                                        name="chevron-down-outline"></ion-icon></button>
+                            </div>
+                        </div>
+                        <button class="btn blue"><ion-icon name="add-outline"></ion-icon>Sub-thread</button>
+                        <div class="smallcard large">
+                            <div class="smalltop">Summary of thread A</div>
+                            <div class="smallbottom">
+                                <input type="text" placeholder="Enter text here">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- bar 2 -->
+
+            <div class="bar2">
+
+                <!-- card 1 -->
+                <div class="card card1">
+                    <div class="top">
+                        <p></p>
+                        <h4>Structure your Pointers</h4>
+                        <ion-icon name="information-circle-outline"></ion-icon>
+                    </div>
+                    <div class="bottom">
+                        <p class="description"><b>Description:</b> Write a 300 - 400 word article from your thread .
+                            Publish
+                            your understanding and showcase your understanding to the entire world </p>
+                        <hr>
+                    </div>
+                    <div class="content">
+                        <h2>Title</h2>
+                        <input type="text">
+                        <h2>Content</h2>
+                        <div class="content-box">
+                            <div class="sm-content-box">
+                                <div class="tools">
+                                    <ul>
+                                        <li>File</li>
+                                        <li>Edit</li>
+                                        <li>View</li>
+                                        <li>Insert</li>
+                                        <li>Format</li>
+                                        <li>Tools</li>
+                                        <li>Table</li>
+                                        <li>Help</li>
+                                    </ul>
+                                </div>
+                                <div class="tool-icons">
+                                    <ul>
+                                        <li><ion-icon name="return-up-back-outline"></ion-icon></li>
+                                        <li><ion-icon name="return-up-forward-outline"></ion-icon></li>
+                                        <li><ion-icon name="expand-outline"></ion-icon></li>
+                                        <li>Paragraph</li>
+                                        <li><ion-icon name="ellipsis-horizontal-outline"></ion-icon></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- card 2 -->
+                <div class="card card2">
+                    <div class="top">
+                        <p></p>
+                        <h4>4SA Method</h4>
+                        <ion-icon name="information-circle-outline"></ion-icon>
+                    </div>
+                    <div class="bottom">
+                        <p class="description"><b>Description:</b> To Explore more read more </p>
+                    </div>
+                    <hr>
+                    <div class="intro">
+                        <div class="introduction">
+                            <ion-icon name="chevron-up-outline"></ion-icon>
+                            <h2>Introduction</h2>
+                        </div>
+                        <div class="introtext">
+                            <p>The 4SA Method , How to bring a idea into progress ?</p>
+                            <div class="seemore">See More</div>
+                        </div>
+                        <div class="athread">
+                            <ion-icon name="chevron-up-outline"></ion-icon>
+                            <h2>Thread A</h2>
+                        </div>
+                        <div class="introtext">
+                            How are you going to develop your stratergy ? Which method are you going to use to develop a
+                            stratergy ? What if the project is lengthy?
+                            <div class="seemore">See More</div>
+                        </div>
+                        <div class="athread">
+                            <ion-icon name="chevron-up-outline"></ion-icon>
+                            <h2>Example 1</h2>
+                        </div>
+                        <div class="introtext">You have a concept , How will you put into progress?
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- notification -->
+        <section class="notification">
+            <div class="not-top">
+                <div class="topleft"><ion-icon name="close-outline"></ion-icon>Notice Board</div>
+
+
+            </div>
+            <div class="not-bottom">
+                <div class="lasticon"><ion-icon name="help-outline"></ion-icon></div>
+                <div class="lasticon"><ion-icon name="people-outline"></ion-icon></div>
+                <div class="lasticon"><ion-icon name="calendar-outline"></ion-icon></div>
+            </div>
+
+        </section>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+
+</html>

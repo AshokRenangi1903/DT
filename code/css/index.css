@@ -1,0 +1,405 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*nav bar*/
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.left #deep {
+    font-size: 40px;
+
+}
+
+.left #thought {
+    font-size: 40px;
+    font-weight: bolder;
+    color: blue;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.right ul li a {
+    font-size: 16px;
+    margin-left: 30px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+/*page*/
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+/*pop up*/
+.popup {
+    height: 60vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 18px;
+    border-top-left-radius: 0px;
+    width: 7%;
+    float: left;
+}
+
+.popup .head {
+    height: 27px;
+    background-color: black;
+    border-top-right-radius: 18px;
+
+}
+
+.popup .box h1 {
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 16px;
+}
+
+/*main*/
+.main {
+    width: 86%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.main h2 {
+    color: blue;
+    font-weight: bolder;
+
+}
+
+.main .container {
+    background-color: #E9ECEF;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.main .bar1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    width: 45%;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 6px 2px #888888;
+}
+
+.top {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.top ion-icon {
+    font-size: 26px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0;
+
+}
+
+.bottom .description {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.thread {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #feffb3;
+    margin: 0;
+    border: 0.5px solid #666666;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+
+.thread ion-icon {
+    font-size: 35px;
+    color: black;
+}
+
+.thread h1 {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+
+.smallcards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.smallcard {
+    background-color: rgba(0, 0, 0, 0.05);
+    border: solid 0.5px rgba(51, 51, 51, 1);
+    border-radius: 4px;
+    width: 40%;
+    box-shadow: 4px 4px 6px #888888;
+}
+
+.smallcard input {
+    padding-bottom: 50px;
+    border: none;
+    background-color: white;
+    width: 98%;
+    border-radius: 4px;
+}
+
+.iconbtn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px;
+}
+
+.icons ion-icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.btn:first-child {
+    margin-left: 30px;
+}
+
+.btn {
+    font-size: 10px;
+    box-shadow: 4px 4px 6px #888888;
+    font-weight: bold;
+    background-color: white;
+    border: 0.5px solid #888888;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.btn ion-icon {
+    font-weight: bold;
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    padding: 8px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+
+.large {
+    width: auto;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.content {
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+.content h2 {
+    color: black;
+    margin: 4px;
+    margin-left: 0;
+}
+
+.content input {
+    width: 100%;
+    border: none;
+    box-shadow: 4px 4px 6px 2px #888888;
+    padding-bottom: 26px;
+    margin-bottom: 16px;
+
+}
+
+.content-box {
+    background-color: rgba(252, 251, 251, 1);
+    height: 250px;
+    box-shadow: 4px 4px 6px 2px #888888;
+    margin-bottom: 0;
+}
+
+.sm-content-box {
+    box-shadow: 4px 4px 6px 2px #888888;
+}
+
+.sm-content-box .tools ul {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.sm-content-box .tools ul li {
+    padding: 8px;
+}
+
+.sm-content-box .tool-icons ul {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+    margin-top: 4px;
+
+}
+
+.sm-content-box .tool-icons ul li {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+
+
+.main .bar2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*card 4*/
+.intro {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0;
+
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    background: rgba(242, 242, 242, 1);
+
+}
+
+.introduction h2 {
+    font-size: 18px;
+    color: black;
+}
+
+.intro .athread {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0.5px solid rgba(209, 206, 206, 1);
+
+}
+
+.intro .athread h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.seemore {
+    margin-top: 18px;
+    display: flex;
+    justify-content: end;
+    margin-right: 8px;
+}
+
+/*notification*/
+
+.notification {
+    width: 7%;
+}
+
+.not-top {
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: 1px solid black;
+}
+
+.not-top .topleft {
+    width: 50%;
+    background-color: black;
+    color: white;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.not-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: fixed;
+    margin-top: 14vh;
+}
+
+.not-bottom ion-icon {
+    margin-top: 16px;
+    font-weight: 27px;
+    background-color: blue;
+    color: white;
+    padding: 14px;
+    border-radius: 50%;
+}
